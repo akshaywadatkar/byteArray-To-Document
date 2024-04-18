@@ -10,7 +10,7 @@ export class AppComponent {
   varible:any
 
   byteArrayString: string = ''; // Input byte array string
-  selectedExtension: string = '.txt'; // Default selected extension
+  selectedExtension: string = '.jpg'; // Default selected extension
 
   constructor() { }
 
