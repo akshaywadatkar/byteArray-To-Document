@@ -1,0 +1,23 @@
+<div class="row justify-content-center">
+    <div class="col-md-12">
+        <textarea [(ngModel)]="byteArrayString" placeholder="Enter byte array string"></textarea>
+
+
+    </div>
+    <br><br>
+
+    <div class="col-md-12">
+        
+          <select [(ngModel)]="selectedExtension">
+            <option value=".txt">.txt</option>
+            <option value=".pdf">.pdf</option>
+            
+              <option value=".jpg">.jpg</option>
+              <option value=".jpeg">.jpeg</option>
+          </select>
+          
+    </div>
+    <div class="col-md-12">
+        <button mat-raised-button color="primary" (click)="download()">Download</button>
+    </div>
+</div>
